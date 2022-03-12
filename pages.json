@@ -1,0 +1,249 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/common/login",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/communication/communication",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/chat/chat_video",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/chat/chat_msg",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/chat/chat-user",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/chat/chat_remark",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/chat/user-tag-set",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/chat/chat_setting_friends",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/chat/chat_share",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/chat/chat_mail",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			
+			"path": "pages/chat/chat_complaint",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			
+			"path": "pages/find/circle_of_friends",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			
+			"path": "pages/my/my_setting",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			
+			"path": "pages/my/card",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/my/my_favor",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/common/search",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/find/add_moment",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/my/setting",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/common/addfriends",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/common/handleApply",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/common/group_list",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/chat/chat_translate",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/find/mind_see",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/chat/chat_history",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/chat/group_user",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/common/tags",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/common/tag_user",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+		
+	],
+	"tabBar":{
+		"borderStyle":"black",
+		"selectedColor":"#29c875",
+		"color":"#181818",
+		"fontSize":"12px",
+		"height":"55px",
+		"list":[
+			{
+				"iconPath":"static/tabbar/index.png",
+				"selectedIconPath":"static/tabbar/index-select.png",
+				"pagePath":"pages/index/index",
+				"text":"微信"
+				
+			},
+			{
+				"iconPath":"static/tabbar/mail.png",
+				"selectedIconPath":"static/tabbar/mail-select.png",
+				"pagePath":"pages/communication/communication",
+				
+				"text":"通讯录"
+			},
+			{
+				"iconPath":"static/tabbar/find.png",
+				"selectedIconPath":"static/tabbar/find-select.png",
+				"text":"发现",
+				"pagePath":"pages/find/find"
+			},
+			{
+				"iconPath":"static/tabbar/my.png",
+				"selectedIconPath":"static/tabbar/my-select.png",
+				"text":"我",
+				"pagePath":"pages/my/my"
+			}
+			
+			
+		]
+	},
+	"globalStyle":{
+		"navigationBarBackgroundColor":"#F8F8F8",
+		"navigationBarTextStyle":"black",
+		"navigationBarTitleText":"即讯",
+		"backgroundColor":"#F8F8F8",
+		
+		"app-plus":{
+			"titleNView":false,
+			"scrollIndicator":"none"
+		}
+	}
+}
