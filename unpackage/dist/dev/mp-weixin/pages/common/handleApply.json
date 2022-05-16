@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "nav-bar": "/components/free-ui/free-nav",
+    "divider": "/components/free-ui/free-divider",
+    "list-item": "/components/free-ui/free-list-item",
+    "free-button": "/components/free-ui/free-button"
+  }
+}

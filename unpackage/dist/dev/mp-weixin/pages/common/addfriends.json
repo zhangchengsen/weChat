@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "nav-bar": "/components/free-ui/free-nav",
+    "divider": "/components/free-ui/free-divider",
+    "list-item": "/components/free-ui/free-list-item"
+  }
+}

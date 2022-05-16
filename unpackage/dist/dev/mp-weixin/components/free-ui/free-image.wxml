@@ -1,0 +1,1 @@
+<image class="rounded" style="{{'border-radius:5rpx;margin-bottom:5rpx;'+('width: '+x+'px;height:'+y+'px;')}}" src="{{item.type==='video'?item.options.poster:item.data}}" data-event-opts="{{[['tap',[['toPreview',['$event']]]],['load',[['load',['$event']]]]]}}" bindtap="__e" bindload="__e"></image>

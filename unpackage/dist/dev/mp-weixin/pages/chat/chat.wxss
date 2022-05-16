@@ -1,0 +1,23 @@
+
+.left-icon.data-v-bf16e7f4{
+	top: 20rpx;
+	color: white;
+	font-size: 32rpx;
+	left: 0;
+}
+.right-icon.data-v-bf16e7f4 {
+	color: #96ec6d;
+	top: 20rpx;
+	font-size: 32rpx;
+	right: 2rpx;
+}
+.btnOpactiy.data-v-bf16e7f4{
+	opacity: 0;
+}
+.function.data-v-bf16e7f4{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+

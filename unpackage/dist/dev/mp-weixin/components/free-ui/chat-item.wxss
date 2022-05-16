@@ -1,0 +1,14 @@
+
+.left-icon.data-v-4ae6cc7a{
+	top: 20rpx;
+	color: white;
+	font-size: 32rpx;
+	left: 0;
+}
+.right-icon.data-v-4ae6cc7a {
+	color: #96ec6d;
+	top: 20rpx;
+	font-size: 32rpx;
+	right: 2rpx;
+}
+

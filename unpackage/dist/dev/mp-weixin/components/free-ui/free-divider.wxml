@@ -1,0 +1,1 @@
+<view style="{{('height:'+height+'rpx;background-color:'+bgc+';')}}"></view>

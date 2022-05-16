@@ -1,0 +1,1 @@
+<image class="{{[type+' '+rounded?'rounded':'']}}" style="{{(trueSize+bodyStyle)}}" src="{{src}}" mode="aspectFill" data-event-opts="{{[['tap',[['$emit',['click']]]]]}}" bindtap="__e"></image>

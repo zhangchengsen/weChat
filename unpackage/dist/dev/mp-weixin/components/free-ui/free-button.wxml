@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['$emit',['click']]]]]}}" class="mr-2 flex align-center " style="height:90rpx;" bindtap="__e"><text class="{{['','px-2','','','rounded',bgColor+' '+textColor]}}" style="{{'font-size:32rpx;padding-top:8rpx;padding-bottom:8rpx;'+(bodyStyle)}}">{{text}}</text></view>

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "free-avatar": "/components/free-ui/free-avatar",
+    "nav-bar": "/components/free-ui/free-nav",
+    "free-list-item": "/components/free-ui/free-list-item",
+    "free-confirm": "/components/free-ui/free-confirm"
+  }
+}

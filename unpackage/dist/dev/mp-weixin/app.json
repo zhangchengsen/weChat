@@ -1,0 +1,77 @@
+{
+  "pages": [
+    "pages/common/login",
+    "pages/index/index",
+    "pages/communication/communication",
+    "pages/find/find",
+    "pages/my/my",
+    "pages/chat/chat",
+    "pages/chat/chat_video",
+    "pages/chat/chat_msg",
+    "pages/chat/chat-user",
+    "pages/chat/chat_remark",
+    "pages/chat/user-tag-set",
+    "pages/chat/chat_setting_friends",
+    "pages/chat/chat_share",
+    "pages/chat/chat_mail",
+    "pages/chat/chat_complaint",
+    "pages/find/circle_of_friends",
+    "pages/my/my_setting",
+    "pages/my/card",
+    "pages/my/my_favor",
+    "pages/common/search",
+    "pages/find/add_moment",
+    "pages/my/setting",
+    "pages/common/addfriends",
+    "pages/common/handleApply",
+    "pages/common/group_list",
+    "pages/chat/chat_translate",
+    "pages/find/mind_see",
+    "pages/chat/chat_history",
+    "pages/chat/group_user",
+    "pages/common/tags",
+    "pages/common/tag_user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "即讯",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "selectedColor": "#29c875",
+    "color": "#181818",
+    "fontSize": "12px",
+    "height": "55px",
+    "list": [
+      {
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/index-select.png",
+        "pagePath": "pages/index/index",
+        "text": "微信"
+      },
+      {
+        "iconPath": "static/tabbar/mail.png",
+        "selectedIconPath": "static/tabbar/mail-select.png",
+        "pagePath": "pages/communication/communication",
+        "text": "通讯录"
+      },
+      {
+        "iconPath": "static/tabbar/find.png",
+        "selectedIconPath": "static/tabbar/find-select.png",
+        "text": "发现",
+        "pagePath": "pages/find/find"
+      },
+      {
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/my-select.png",
+        "text": "我",
+        "pagePath": "pages/my/my"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

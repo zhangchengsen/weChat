@@ -1,0 +1,1 @@
+<block wx:if="{{noreadnum}}"><text class="{{['free-badge','','bg-danger','rounded-circle','text-white','font-sm','','data-v-5967f792',position?'position-absolute':'']}}" style="{{(position)}}">{{noreadnum}}</text></block>
